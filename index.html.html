@@ -10,7 +10,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { width: 100%; margin: 0; padding: 0; }
     body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
       font-family: 'Inter', sans-serif;
       background: #fdf8f2;
       color: #2b1a1a;
@@ -34,6 +39,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
+      width: 100%;
       border-bottom: 1.5px solid rgba(249, 213, 110, 0.5);
       box-shadow: 0 4px 20px rgba(123, 30, 30, 0.04);
     }
@@ -94,7 +100,7 @@
       transform: translateY(2px);
       box-shadow: 0 2px 0 var(--maroon-dark) !important;
     }
-    section { padding: 60px 0; }
+    section { padding: 60px 0; width: 100%; }
     .section-title {
       font-size: 2rem;
       font-weight: 800;
@@ -128,6 +134,7 @@
       box-shadow: var(--shadow-md);
       border: 1px solid rgba(249, 213, 110, 0.6);
       margin-bottom: 20px;
+      width: 100%;
     }
     .hero-text h1 {
       font-size: 3rem;
@@ -192,6 +199,7 @@
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 26px;
       margin-top: 12px;
+      width: 100%;
     }
     .card-keunggulan {
       background: #fff;
@@ -217,7 +225,7 @@
       justify-content: center;
     }
     .card-keunggulan h4 { margin: 14px 0 6px; font-weight: 700; color: var(--maroon-dark); }
-    .mood-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0 28px; }
+    .mood-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0 28px; width: 100%; }
     .mood-tag {
       background: #fff;
       padding: 10px 24px;
@@ -256,6 +264,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 28px;
+      width: 100%;
     }
     .product-card {
       background: #fff;
@@ -320,6 +329,7 @@
       box-shadow: var(--shadow-sm);
       border-left: 8px solid var(--yellow);
       border: 1px solid rgba(249, 213, 110, 0.4);
+      width: 100%;
     }
     .about-wrap p { font-size: 1.08rem; color: #3e2c24; margin-bottom: 16px; }
     .highlight-text {
@@ -340,6 +350,7 @@
       box-shadow: var(--shadow-sm);
       border: 2px solid var(--yellow);
       gap: 20px;
+      width: 100%;
     }
     .btn-checkout {
       background: var(--maroon);
@@ -369,6 +380,7 @@
       padding: 38px 44px;
       box-shadow: var(--shadow-sm);
       border: 1px solid rgba(249, 213, 110, 0.5);
+      width: 100%;
     }
     .contact-item {
       display: flex;
@@ -397,6 +409,7 @@
       margin-top: 48px;
       border-radius: 40px 40px 0 0;
       text-align: center;
+      width: 100%;
     }
     footer p { opacity: 0.9; }
     @media (max-width: 700px) {
